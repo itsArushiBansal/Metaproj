@@ -6,30 +6,42 @@
     <title>Document</title>
     <link href="./output.css" rel="stylesheet" />
   </head>
+  <style>
+    .clip-custom{
+        clip-path:
+        polygon(0% 10%, 95% 0%, 100% 100%, 0% 100%);
+    }
+</style>
   <body>
+    <div class="container mx-auto p-6">
+      <h1 class="text-4xl md:text-2xl font-bold text-blue-400">Contact us <span class="text-red-200">.</span></h1>
+  </div>
+
+  <img src="/Smiling Woman On Phone 1.png"
+  alt="Contact Us Image" class="mt-4 mx-auto w-[vw-50] pl-5 h-48 object-cover clip-custom ">
     <div class="mb-8">
-      <h2 class="text-xl font-bold mb-4 text-blue-400">Select a topic</h2>
-      <input type="text" placeholder="Search a topic" class="text-blue-400 w-full border-grey"/>
+      <h2 class="text-xl font-bold mb-4 text-blue-400 pl-5 mt-5">Select a topic</h2>
+      <input type="text" placeholder="Search a topic" class="text-blue-400 w-full border-grey pl-5"/>
     </div>
     <div class="mb-8">
-      <h2 class="text-4xl font-bold mb-10">Related questions and articles</h2>
+      <h2 class="text-4xl font-bold mb-10 pl-5">Related questions and articles</h2>
       <ul class="list-disc mt-4 pl-5 space-y-8 text-red-500">
         <li>
-          <h2 class="text-2xl text-blue-400 font-bold">Mapping Cashflows</h2>
+          <h2 class="text-2xl text-blue-400 font-bold pl-5">Mapping Cashflows</h2>
           <p class="text-black">Lorem ipsum dolor sit amet ae dolor nihil et ut exercitationda, porro unde alias quam cum, recusandae iusto dignissimos illum, fugiat quos veritatis?</p>
         </li>
         <li>
-          <h2 class="text-2xl text-blue-400 font-bold">
+          <h2 class="text-2xl text-blue-400 pl-5 font-bold">
             Getting started with Xero
           </h2>
           <p class="text-black">Lorem ipsuvitae ab natus, iure est, molestiae ducidam eaque quisquam architecto explicabo molestias?</p>
         </li>
         <li>
-          <h2 class="text-2xl text-blue-400 font-bold">Everything Shopify</h2>
+          <h2 class="text-2xl text-blue-400 font-bold pl-5">Everything Shopify</h2>
           <p class="text-black">Lorem ipsum dolor sit amet conslectus in natus repudiandae iste, exdi accusantium la error eligendi architecto sint quas eveniet.</p>
         </li>
         <li>
-          <h2 class="text-2xl text-blue-400 font-bold">
+          <h2 class="text-2xl text-blue-400 font-bold pl-5">
             The ultimate guide to KPIs
           </h2>
           <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisiclo, illum quia cumque quos, at acc vel. Harum numquam eum placeat consequuntur?</p>
@@ -37,14 +49,14 @@
       </ul>
     </div>
     <div class="bg-white p-6 ">
-        <h2 class="text-xl font-bold mb-4 text-blue-400">Can you give us some details?</h2>
+        <h2 class="text-xl font-bold mb-4 text-blue-400 pl-5">Can you give us some details?</h2>
         <textarea placeholder="Add any information we can use to help you" class=" w-full p-4 border border-gray-300 rounded-lg  mb-4"></textarea>
   
 
         <div class="mb-4">
-          <label class="block text-blue-400 font-bold mb-2">Attach files (optional)</label>
+          <label class="block text-blue-400 font-bold mb-2 pl-5">Attach files (optional)</label>
           <div class="border-dashed border-2 border-gray-300 p-6 rounded-lg text-center">
-            <p class="text-gray-500">Drag and drop a file to attach it or <a href="#" class="text-blue-500 hover:underline">browse for a file...</a></p>
+            <p class="text-gray-500 pl-5">Drag and drop a file to attach it or <a href="#" class="text-blue-500 hover:underline">browse for a file...</a></p>
           </div>
         </div>
         <button type="submit" class="text-bold text-black bg-blue-200 p-4 rounded-lg" >Send me a message</button>
